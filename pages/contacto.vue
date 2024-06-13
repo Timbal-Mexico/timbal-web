@@ -6,6 +6,7 @@
                 <div class="col-md-12">
                     <div class="text-center">
                         <h1>Contacto</h1>
+                        <hr>
                     </div>
                 </div>
             </div>
