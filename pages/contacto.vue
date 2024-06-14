@@ -59,14 +59,5 @@ definePageMeta({
   layout: 'application'
 })
 
-export default ({
-    setup() {
-        
-    },
-    data(){
-        return {
-            name: "",
-        }
-    }
-})
+
 </script>
