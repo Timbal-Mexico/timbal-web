@@ -17,7 +17,7 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="../forming-leaders.gif"  width="512" alt="">
+                    <img src="../assets/img/leaders.gif"  width="512" alt="">
                 </div>
                 <div class="col-md-6">
                     <div class="container mt-5">

@@ -14,7 +14,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="../ecommerce.png" alt="Leads Ecommerce" width="512"/></div>
+                  <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="../assets/img/ecommerce.png" alt="Leads Ecommerce" width="512"/></div>
               </div>
           </div>
       </header>
@@ -57,7 +57,7 @@
             <div class="row">
                 <div class="col-md-6">
                    <div class="text-center">
-                    <img src="../leadership.png" width="512" alt="Logo timbal">
+                    <img src="../assets/img/leadership.png" width="512" alt="">
                    </div>
                 </div>
                 <div class="col-md-6 my-auto text-left ">

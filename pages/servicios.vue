@@ -17,7 +17,7 @@
         <div class="row">
           <div class="col-md-3">
             <div class="card" style="width: 18rem">
-              <img src="../customer-service.gif" class="card-img-top" alt="..." />
+              <img src="../assets/img/customer-service.gif" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h3 class="card-title fw-bold mb-0 fs-4 text-body-emphasis">
                   Atención a Clientes
@@ -32,7 +32,7 @@
           </div>
           <div class="col-md-3">
             <div class="card" style="width: 18rem">
-              <img src="../marketing.gif" class="card-img-top" alt="..." />
+              <img src="../assets/img/marketing.gif" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title fw-bold mb-0 fs-4 text-body-emphasis">Marketing Digital</h5>
                 <p class="card-text">
@@ -46,7 +46,7 @@
           </div>
           <div class="col-md-3">
             <div class="card" style="width: 18rem">
-              <img src="../crm.gif" class="card-img-top" alt="..." />
+              <img src="../assets/img/crm.gif" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title fw-bold mb-0 fs-4 text-body-emphasis">Kommo CRM</h5>
                 <p class="card-text">
@@ -60,7 +60,7 @@
           </div>
           <div class="col-md-3">
             <div class="card" style="width: 18rem">
-              <img src="../designer.gif" class="card-img-top" alt="..." />
+              <img src="../assets/img/designer.gif" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title fw-bold mb-0 fs-4 text-body-emphasis">Diseño Gráfico</h5>
                 <p class="card-text">
