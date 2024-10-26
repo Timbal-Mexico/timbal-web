@@ -1,5 +1,8 @@
 <template>
   <div>
+    <header id="nosotros">
+
+    </header>
     <section>
       <div class="container py-5">
         <div class="row">
