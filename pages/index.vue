@@ -1,10 +1,10 @@
 <template>
     <div>
         <!-- Header-->
-        <header class="bg-dark py-5">
-          <div class="container-fluid px-5">
+        <header class="bg-timbal py-5">
+          <div class="container px-5">
               <div class="row gx-5 align-items-center justify-content-center">
-                  <div class="col-lg-6 col-xl-5 col-xxl-4">
+                  <div class="col-lg-8 col-xl-5 col-xxl-4">
                       <div class="my-5 text-center text-xl-start">
                           <h1 class="display-5 fw-bolder text-white mb-2">Ten el control de tus leads y aprovechalos al máximo</h1>
                           <p class="lead fw-normal text-white-50 mb-4">Tus camapañas generan clientes potenciales, aprovechalos al máximo y dales atención.</p>
@@ -14,7 +14,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="../assets/img/ecommerce.png" alt="Leads Ecommerce" width="512"/></div>
+                  <div class="d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="../assets/img/ecommerce.png" alt="Leads Ecommerce" width="512"/></div>
               </div>
           </div>
       </header>
