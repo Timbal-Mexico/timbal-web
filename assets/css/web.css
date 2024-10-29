@@ -37,5 +37,26 @@ background: linear-gradient(90deg, rgba(73,191,227,1) 0%, rgba(119,196,204,1) 50
 /*Home*/
 /* Nosotros*/
 header#nosotros {
-    background
+    background-image: 
+    linear-gradient(to bottom, rgba(94,55,136,0.50), rgba(72,180,229,0.70)),
+    url("https://framerusercontent.com/images/oEeswu7TYD34QjfY1k48d76xI8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 10rem 0;
+}
+/* Custom Buttons Styles */
+.btn-timbal {
+    background: rgb(3,191,227) !important;
+    color: #FFF !important;
+}
+
+.btn-timbal2 {
+
+}
+.nav-link {
+    color: white !important;
+}
+.active.nav-link {
+    font-weight: 700;
 }
