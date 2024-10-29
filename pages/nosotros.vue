@@ -1,15 +1,27 @@
 <template>
   <div>
-    <header id="nosotros">
-
+    <header id="nosotros" class="mt-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center text-white">
+              <h1>Nosotros</h1>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <section>
       <div class="container py-5">
-        <div class="row">
-          <div class="col-8 mx-auto">
+        <div class="row gx-5 align-items-center justify-content-center">
+          <div class="col-lg-6">
             <div class="text-center">
-              <img src="../assets/img/at-the-office.gif" width="512" />
-              <h1>¿Quienes Somos?</h1>
+              <img src="../assets/img/at-the-office.gif" class="img-fluid" />
+             
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h1>¿Quienes Somos?</h1>
               <p>
                 Somos una agencia especializada en la generación de leads,
                 comprometida con mejorar la experiencia de los clientes de
@@ -21,16 +33,15 @@
                 con los clientes contribuya a mejorar su percepción del servicio
                 o producto ofrecido.
               </p>
-            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section>
-      <div class="container-fluid py-5 bg-secondary">
-        <div class="row">
-          <div class="col-md-4">
+      <div class="container py-5">
+        <div class="row gx-5 align-items-center justify-content-center">
+          <div class="col-md-4 bg-timbal p-4 rounded mx-2">
             <div class="text-center text-white">
               <h1>Vision</h1>
               <p>
@@ -44,7 +55,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 bg-timbal2 p-4 rounded mx-2">
             <div class="text-center text-white">
               <h1>Mision</h1>
               <p>
@@ -58,7 +69,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 bg-timbal p-4 rounded mx-2">
             <div class="text-center text-white">
               <h1>Valores</h1>
 

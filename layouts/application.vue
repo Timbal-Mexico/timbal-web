@@ -7,6 +7,7 @@
       
   <!-- Footer-->
   <Footer />
+  
 </div>
 </template>
 
