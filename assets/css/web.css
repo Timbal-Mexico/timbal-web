@@ -17,6 +17,19 @@ h6 {
     font-weight: 700;
 }
 
+/* Headdings */
+h1,
+h2,
+h3 {
+    font-weight: 900;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
 .bg-timbal {
 background: rgb(94,55,136) !important;
 background: linear-gradient(90deg, rgba(94,55,136,1) 0%, rgba(72,180,229,1) 100%) !important;
