@@ -1,16 +1,16 @@
 <template>
     <div>
         <!-- Header-->
-        <header class="bg-timbal py-5">
+        <header class="bg-timbal mt-5 py-5">
           <div class="container px-5">
               <div class="row gx-5 align-items-center justify-content-center">
                   <div class="col-lg-6">
                       <div class="my-5 text-center text-xl-start">
-                          <h1 class="display-5 fw-bolder text-white mb-2">Ten el control de tus leads y aprovechalos al máximo</h1>
-                          <p class="lead fw-normal text-white-50 mb-4">Tus camapañas generan clientes potenciales, aprovechalos al máximo y dales atención.</p>
+                          <h1 class="display-5 fw-bolder text-white mb-2">Resuelve, Conecta, y Fideliza: Tu atención al cliente sin pausas ni excusas.</h1>
+                          <p class="lead fw-normal text-white-50 mb-4">Somos la extensión de tu equipo. Brindamos atención personalizada las 24 horas del día para que tus clientes siempre se sientan escuchados.</p>
                           <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                              <a class="btn btn-timbal btn-lg px-4 me-sm-3" href="/princing">Cotizar</a>
-                              <a class="btn btn-outline-light btn-lg px-4" href="/demo">Solicitar Demo</a>
+                              <a class="btn btn-timbal btn-lg px-4 me-sm-3" href="#">Contactanos</a>
+                              <a class="btn btn-outline-light btn-lg px-4" href="https://calendly.com/timbalcomunicaciones/30min">Solicita una demo</a>
                           </div>
                       </div>
                   </div>
@@ -23,54 +23,15 @@
        <section class="py-5" id="features">
         <div class="container px-5 my-2">
             <div class="row gx-5 py-5">
-                <div class="col-lg-6 mx-auto"><h2 class="h1 fw-bolder text-center">Ofrecemos servicios de calidad</h2></div>
+                <div class="col-lg-6 mx-auto"><h2 class="h1 fw-bolder text-center">Lo que hacemos por ti</h2></div>
                 </div>
                 <div class="row gx-5">
                 <div class="col-lg-12">
                     <div class="row gx-5 row-cols-1  row-cols-md-2 row-cols-lg-3 row-cols-xl-4 text-center">
-                        <div class="col mb-5 h-100">
-                            <div class="feature bg-timbal2 bg-gradient text-white rounded-3 mb-3 mx-auto"><h2>01</h2></div>
-                            <h2 class="h5"><strong>Estrategias de Martketing</strong></h2>
-                            <p class="mb-0">Ideamos estrategias para campañas publicitarias para redes sociales y optimizamos los motores de búsqueda (SEO).</p>
-                        </div>
-                        <div class="col mb-5 h-100">
-                            <div class="feature bg-timbal bg-gradient text-white rounded-3 mb-3 mx-auto mx-auto"><h2>02</h2></div>
-                            <h2 class="h5"><strong>Diseño Gráfico</strong></h2>
-                            <p class="mb-0">Creación de contenido visual impactante y atractivo para satisfacer las necesidades y objetivos de nuestros clientes.</p>
-                        </div>
-                        <div class="col mb-5 mb-md-0 h-100">
-                            <div class="feature bg-timbal2 bg-gradient text-white rounded-3 mb-3 mx-auto"><h2>03</h2></div>
-                            <h2 class="h5"><strong>Branding</strong></h2>
-                            <p class="mb-0">Ideamos estrategias para campañas publicitarias para redes sociales y optimizamos los motores de búsqueda (SEO).</p>
-                        </div>
-                        <div class="col mb-5 h-100">
-                            <div class="feature bg-timbal bg-gradient text-white rounded-3 mb-3 mx-auto"><h2>04</h2></div>
-                            <h2 class="h5"><strong>Community Management</strong></h2>
-                            <p class="mb-0">Gestionamos y fortalecemos la presencia de tu empresa en redes sociales y otras plataformas en línea.</p>
-                        </div>
-
-                        <div class="col mb-5 h-100">
-                            <div class="feature bg-timbal2 bg-gradient text-white rounded-3 mb-3 mx-auto"><h2>05</h2></div>
-                            <h2 class="h5"><strong>Capacitaciones</strong></h2>
-                            <p class="mb-0">Formamos el desarrollo de habilidades necesarias de tu equipo para la utilización de nuestras plataformas para que tu empresa se desempeñe con éxito.</p>
-                        </div>
-
-                        <div class="col mb-5 h-100">
-                            <div class="feature bg-timbal bg-gradient text-white rounded-3 mb-3 mx-auto"><h2>06</h2></div>
-                            <h2 class="h5"><strong>Gestion de Leads</strong></h2>
-                            <p class="mb-0">Ofrecemos servicios de diseño de páginas web, creando sitios atractivos y funcionales para satisfacer las necesidades específicas de nuestros clientes.</p>
-                        </div>
-
-                        <div class="col mb-5 h-100">
-                            <div class="feature bg-timbal2 bg-gradient text-white rounded-3 mb-3 mx-auto"><h2>07</h2></div>
-                            <h2 class="h5"><strong>Desarrollo Web </strong></h2>
-                            <p class="mb-0">Por medio de la plataforma de Kommo CRM, le brindamos asistencia a tus clientes en cualquier momento del día de forma rápida, eficiente y sobre todo, con calidad humana; lo que mejora la satisfacción al cliente.</p>
-                        </div>
-
-                        <div class="col mb-5 mb-md-0 h-100">
-                            <div class="feature bg-timbal bg-gradient text-white rounded-3 mb-3 mx-auto"><h2>08</h2></div>
-                            <h2 class="h5"><strong>E-Commerce </strong></h2>
-                            <p class="mb-0">Diseñamos tu sitio web con tienda en línea, permitiendo que tu empresa opere eficientemente en el ámbito del e-commerce.</p>
+                        <div v-for="(service, index) in services" :key="index" class="col mb-5 h-100">
+                            <div class="feature bg-timbal2 bg-gradient text-white rounded-3 mb-3 mx-auto"><h2>{{ service.icon }}</h2></div>
+                            <h2 class="h5"><strong>{{ service.title}}</strong></h2>
+                            <p class="mb-0">{{ service.text }}</p>
                         </div>
                     </div>
                 </div>
@@ -81,18 +42,66 @@
 <!-- CTA to contact -->
     <section class="bg-timbal2">
         <div class="container m-auto p-5  text-white">
-            <div class="row">
-                <div class="col-md-8">
+            <div class="row gx-2 align-items-center justify-content-center">
+                <div class="col-md-6">
                    <div class="text-center">
-                    <img src="../assets/img/leadership.png" width="512" alt="">
+                    <img src="../assets/img/leadership.png" class="img-fluid" alt="">
                    </div>
                 </div>
-                <div class="col-md-4 text-left ">
-                    <h1>¿No sabes a donde van tus leads?</h1>
-                    <h4>Nosotros te ayudamos a que no pierdas tus clientes potenciales, y crecemos tu negocio.</h4>
+                <div class="col-md-6 text-left ">
+                    <h1>¿Por Qué Elegirnos?</h1>
+                    <p>Mientras tú creces, nosotros cuidamos de tus clientes.</p>
+                    <ul>
+                      <li><strong>99.9% de Tiempo de Actividad:</strong> Nunca dejamos a tus clientes esperando.</li>
+                      <li><strong>Reducción de Quejas en un 40%:</strong>Atención rápida = Clientes felices. </li> 
+                      <li><strong>Informes Detallados Mensuales:</strong>Descubre cómo evolucionan las interacciones.</li> 
+                    </ul>
                 </div>
             </div>
         </div>
+    </section>
+    <section id="success-cases">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-md-12">
+           <div class="text-center">
+            <h2>Casos de Éxito</h2>
+            <p class="text-muted">Empresas que confían en nosotros ya están un paso adelante.</p>
+           </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <h2>Slide 1</h2>
+    </div>
+    <div class="carousel-item">
+      <h2>Slide 2</h2>
+    </div>
+    <div class="carousel-item">
+      <h2>Slide 3</h2>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+          </div>
+        </div>
+      </div>
     </section>
 <!-- Portafolio (Bento)-->
     <section>
@@ -227,7 +236,33 @@ export default {
       name: '',
       email: '',
       phone: '',
-      message: ''
+      message: '',
+      services: [
+        {
+          icon: "01",
+          title: "Soporte Multicanal 24/7",
+          text: "Estamos donde tus clientes estén: WhatsApp, Messenger, SMS, chat en vivo, ¡y más!",
+
+        },
+        {
+          icon: "02",
+          title: "Automatización Inteligente + Agentes Reales",
+          text: "El equilibrio perfecto entre bots rápidos y agentes humanos empáticos.",
+
+        },
+        {
+          icon: "03",
+          title: "Gestión Integral de Casos",
+          text: "Cada interacción importa. Documentamos cada mensaje para que nada se pierda.",
+
+        },
+        {
+          icon: "04",
+          title: "Monitoreo y Respuesta Proactiva",
+          text: "Detectamos y resolvemos problemas antes de que afecten a tus clientes.",
+
+        }
+      ]
     };
   },
   methods: {
