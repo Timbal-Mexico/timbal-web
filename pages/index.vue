@@ -1,9 +1,9 @@
 <template>
     <div>
         <!-- Header-->
-        <header class="bg-timbal mt-5 py-5">
+        <header id="hero-header" class="bg-timbal mt-5 py-5">
           <div class="container px-5">
-              <div class="row gx-5 align-items-center justify-content-center">
+              <div class="row h-100 gx-5 align-items-center justify-content-center">
                   <div class="col-lg-6">
                       <div class="my-5 text-center text-xl-start">
                           <h1 class="display-5 fw-bolder text-white mb-2">Resuelve, Conecta, y Fideliza: Tu atención al cliente sin pausas ni excusas.</h1>
@@ -14,7 +14,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="col-lg-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="../assets/img/ecommerce.png" alt="Leads Ecommerce" width="512"/></div>
+                  <div class="col-lg-6 d-none d-xl-block text-center"></div>
               </div>
           </div>
       </header>
@@ -72,113 +72,127 @@
         </div>
 
         <div class="row">
-          <div class="col-md-12">
-            <div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <h2>Slide 1</h2>
-    </div>
-    <div class="carousel-item">
-      <h2>Slide 2</h2>
-    </div>
-    <div class="carousel-item">
-      <h2>Slide 3</h2>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+          <div class="col-md-12 text-dark">
+            <b-carousel
+      id="text-carousel"
+      controls
+      indicators
+      interval="3000"
+      background="#f8f9fa"
+      fade
+    >
+      <b-carousel-slide>
+        <div class="text-center">
+          <h3>Slide 1</h3>
+          <p>This is the content for the first slide. It's just text.</p>
+        </div>
+      </b-carousel-slide>
+
+      <b-carousel-slide>
+        <div class="text-center">
+          <h3>Slide 2</h3>
+          <p>Welcome to the second slide of this text-based carousel.</p>
+        </div>
+      </b-carousel-slide>
+
+      <b-carousel-slide>
+        <div class="text-center">
+          <h3>Slide 3</h3>
+          <p>This is the third and final slide with only text content.</p>
+        </div>
+      </b-carousel-slide>
+    </b-carousel>
           </div>
         </div>
       </div>
     </section>
-<!-- Portafolio (Bento)-->
-    <section>
+
+    <section id="pricing">
         <div class="container my-4">
-            <div class="row py-4 my-5">
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <h2>Nuestros Trabajos</h2>
-                    </div>
-                </div>
+          <div class="row my-5">
+            <div class="col-md-12">
+              <div class="text-center">
+                <h2>Planes y Precios: Diseñados para Crecer Contigo</h2>
+                <p class="text-muted">
+                  Escoge el plan que más se adapta a tu negocio, y si no lo encuentras, lo creamos para ti.
+                </p>
+              </div>
             </div>
-  <div class="row gx-3 gy-3">
-    <!-- Large Block -->
-    <div class="col-12 col-md-7">
-      <div class="p-4 bg-timbal text-white rounded">
-        <h3>Expoceramicas</h3>
-        <div class="badge bg-timbal2 text-dark me-1">Sitio web</div>
-        <div class="badge bg-timbal2 text-dark mx-1">E-commerce</div>
-        <div class="badge bg-timbal2 text-dark mx-1">Marketing</div>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, et dolorum aliquam iste incidunt sed, sequi accusantium cumque nihil qui quasi, maxime adipisci fuga doloremque laboriosam. Quidem voluptatibus cupiditate commodi.
-        </p>
-        <a href="#" class="btn btn-timbal">Ver Proyecto</a>
+          </div>
+
+          <div class="row text-center">
+    <!-- Plan Básico -->
+    <div class="col-md-4">
+      <div class="card shadow-sm py-5 h-100">
+        <div class="card-body">
+          <h5 class="card-title">Plan Básico</h5>
+          <p class="card-text">Ideal para negocios emergentes.</p>
+          <h3 class="h1 my-4"><strong>$99</strong><span class="fs-6">/mes</span></h3>
+          <ul class="list-unstyled mb-4">
+            <li>✔ Atención WhatsApp + chat web</li>
+            <li>✔ 12 horas/día</li>
+          </ul>
+          <a href="#" class="btn btn-timbal">Solicitar una Cotización</a>
+        </div>
       </div>
     </div>
 
-    <!-- Two Medium Blocks -->
-    <div class="col-12 col-md-5">
-      <div class="p-4 bg-timbal2 text-dark rounded">
-        <h3>Coffeebreak</h3>
-        <div class="badge bg-timbal text-light mx-1">Kommo CRM</div>
-        <div class="badge bg-timbal text-light mx-1">Marketing</div>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, et dolorum aliquam iste incidunt sed, sequi accusantium cumque nihil qui quasi, maxime adipisci fuga doloremque laboriosam. Quidem voluptatibus cupiditate commodi.
-        </p>
-        <a href="#" class="btn btn-timbal">Ver Proyecto</a>
+    <!-- Plan Profesional -->
+    <div class="col-md-4">
+      <div class="card shadow-sm  py-5 h-100">
+        <div class="card-body">
+          <h5 class="card-title pt-2">Plan Profesional </h5>
+          <p class="card-text">Para empresas en expansión.</p>
+          <h3 class="h1 my-4"><strong>$299</strong><span class=" fs-6">/mes</span></h3>
+          <ul class="list-unstyled mb-4">
+            <li>✔ Soporte multicanal</li>
+            <li>✔ Reporte mensual</li>
+          </ul>
+          <a href="#" class="btn btn-timbal">Solicita una cotización</a>
+        </div>
       </div>
+     
     </div>
-   
 
-    <!-- Smaller Blocks -->
-    <div class="col-6 col-md-3">
-      <div class="p-4 bg-success text-white rounded">Emmet</div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="p-4 bg-success text-white rounded">Small Block 2</div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="p-4 bg-info text-white rounded">Small Block 3</div>
-    </div>
-    <div class="col-6 col-md-3">
-      <div class="p-4 bg-info text-white rounded">Small Block 4</div>
+    <!-- Plan Premium -->
+    <div class="col-md-4">
+      <div class="card shadow-sm py-5 h-100">
+        <div class="card-body">
+          <h5 class="card-title">Plan Premium</h5>
+          <p class="card-text">Máxima cobertura y personalización.</p>
+          <h3 class="h1 my-4"><strong>$599</strong><span class="fs-6">/mes</span></h3>
+          <ul class="list-unstyled mb-4">
+            <li>✔ Atención 24/7</li>
+            <li>✔ Agentes dedicados</li>
+          </ul>
+          <a href="#" class="btn btn-timbal">Agenda una reunión hoy</a>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-
-
+        </div>
     </section>
+
 
     <section id="contact-form" class="bg-timbal py-5">
         <div class="container my-5">
   <div class="row align-items-center  justify-content-middle text-white">
     <div class="col-md-6">
         <div>
-            <h2 class=" mb-4">Nosotros te asesoramos</h2>
+            <h2 class=" mb-4">Déjanos tus datos, te respondemos en minutos.</h2>
             <h5>T. 33 1115 3802</h5>
+            <h5>hello@timbal.com.mx</h5>
             <p>Av. Miguel Hidalgo y costilla #1995, 
-Col. Ladrón de Guevara,
-C.P. 44600, Guadalajara, Jalisco. <br/>
-<a href="https://maps.app.goo.gl/9XvJNjRVEd8LexgJ7" class="btn btn-link text-white">Visitanos</a></p>
+            Col. Ladrón de Guevara,
+            C.P. 44600, Guadalajara, Jalisco. <br/>
+<a href="https://maps.app.goo.gl/9XvJNjRVEd8LexgJ7" class="btn btn-outline-light">Visitanos</a></p>
 
-            <img src="../assets/img/leadership.png" alt="Contact" class="img-fluid" width="512">
+
         </div>
     </div>
     <div class="col-md-6">
       
-      <form id="contactForm" class="bg-light px-5 py-3">
+      <form id="contactForm" class="rounded bg-light px-5 py-5">
         <!-- Name Field -->
         <div class="mb-3">
           <label for="name" class="form-label">Name</label>

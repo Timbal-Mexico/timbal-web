@@ -9,12 +9,13 @@ export default defineNuxtConfig({
     }
   },
   css: [
-'bootstrap/dist/css/bootstrap.css',
+'bootstrap/dist/css/bootstrap.min.css',
 'assets/css/web.css',
 
   ],
   modules: [
     '@vesp/nuxt-fontawesome',
+    '@bootstrap-vue-next/nuxt'
   ],
   components: true,
 })
