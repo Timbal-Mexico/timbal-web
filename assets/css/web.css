@@ -1,75 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-    font-family: "Poppins";
+  font-family: "Poppins";
 }
 
 /* Headdings */
 h1,
 h2,
 h3 {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 h4,
 h5,
 h6 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 /* Headdings */
 h1,
 h2,
 h3 {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 h4,
 h5,
 h6 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .bg-timbal {
-background: rgb(94,55,136) !important;
-background: linear-gradient(90deg, rgba(94,55,136,1) 0%, rgba(72,180,229,1) 100%) !important;
+  background: rgb(94, 55, 136) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(94, 55, 136, 1) 0%,
+    rgba(72, 180, 229, 1) 100%
+  ) !important;
 }
 
 .bg-timbal2 {
-    background: rgb(73,191,227) !important;
-background: linear-gradient(90deg, rgba(73,191,227,1) 0%, rgba(119,196,204,1) 50%, rgba(146,204,192,1) 100%) !important;
+  background: rgb(73, 191, 227) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(73, 191, 227, 1) 0%,
+    rgba(119, 196, 204, 1) 50%,
+    rgba(146, 204, 192, 1) 100%
+  ) !important;
 }
 .feature {
-    padding: 2rem 2rem;
-    max-width: 5rem;
-    max-height: 5rem;
-    text-align: center;
+  padding: 2rem 2rem;
+  max-width: 5rem;
+  max-height: 5rem;
+  text-align: center;
 }
 
 /*Pages*/
 /*Home*/
 /* Nosotros*/
-header#nosotros {
-    background-image: 
-    linear-gradient(to bottom, rgba(94,55,136,0.50), rgba(72,180,229,0.70)),
+header#nosotros,
+header#servicios,
+header#kommo,
+header#contacto {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(94, 55, 136, 0.5),
+      rgba(72, 180, 229, 0.7)
+    ),
     url("https://framerusercontent.com/images/oEeswu7TYD34QjfY1k48d76xI8.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-    padding: 10rem 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding: 10rem 0;
+}
+header h1 {
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+}
+header p {
+  font-size: 1.5rem;
 }
 /* Custom Buttons Styles */
 .btn-timbal {
-    background: rgb(3,191,227) !important;
-    color: #FFF !important;
+  background: rgb(3, 191, 227) !important;
+  color: #fff !important;
 }
 
 .btn-timbal2 {
-
 }
 .nav-link {
-    color: white !important;
+  color: white !important;
 }
 .active.nav-link {
-    font-weight: 700;
+  font-weight: 700;
 }
