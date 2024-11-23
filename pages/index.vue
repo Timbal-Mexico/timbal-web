@@ -102,60 +102,6 @@
         </div>
       </div>
     </section>
-    <section id="success-cases">
-      <div class="container py-5">
-        <div class="row py-5">
-          <div class="col-md-12">
-            <div class="text-center">
-              <h2>Casos de Éxito</h2>
-              <p class="text-muted">
-                Empresas que confían en nosotros ya están un paso adelante.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12 text-dark">
-            <b-carousel
-              id="text-carousel"
-              controls
-              indicators
-              interval="3000"
-              background="#000"
-              fade
-            >
-              <b-carousel-slide>
-                <div class="text-center">
-                  <h3>Slide 1</h3>
-                  <p>
-                    This is the content for the first slide. It's just text.
-                  </p>
-                </div>
-              </b-carousel-slide>
-
-              <b-carousel-slide>
-                <div class="text-center">
-                  <h3>Slide 2</h3>
-                  <p>
-                    Welcome to the second slide of this text-based carousel.
-                  </p>
-                </div>
-              </b-carousel-slide>
-
-              <b-carousel-slide>
-                <div class="text-center">
-                  <h3>Slide 3</h3>
-                  <p>
-                    This is the third and final slide with only text content.
-                  </p>
-                </div>
-              </b-carousel-slide>
-            </b-carousel>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section id="pricing">
       <div class="container my-4">
