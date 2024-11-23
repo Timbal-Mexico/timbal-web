@@ -1,40 +1,32 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container px-5">
-      <a class="navbar-brand" href="/"
-        ><img src="../../assets/img/timbal_logo.svg" width="128"
-      /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link" href="/">Inicio</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="/nosotros">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/servicios">Soluciones</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/kommo">Kommo CRM</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contacto">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn btn-light" href="/login">Login</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <BNavbar
+    id="main-menu"
+    v-b-color-mode="'dark'"
+    toggleable="lg"
+    variant="dark"
+    fixed="top"
+  >
+    <BNavbarBrand href="#"
+      ><img
+        src="../../assets/img/timbal_logo.svg"
+        fluid
+        class="d-inline-block align-top"
+        alt="Comunicaciones Digitales Timbal"
+        with="128"
+    /></BNavbarBrand>
+    <BNavbarToggle target="nav-collapse" />
+    <BCollapse id="nav-collapse" is-nav>
+      <BNavbarNav class="mx-auto mb-2 mb-lg-0">
+        <BNavItem href="/">Home</BNavItem>
+        <BNavItem href="/nosotros">Nosotros</BNavItem>
+        <BNavItem href="/servicios">Soluciones</BNavItem>
+        <BNavItem href="/kommo">Kommo CRM</BNavItem>
+        <BNavItem href="/contacto">Contacto</BNavItem>
+      </BNavbarNav>
+
+      <BNavbarNav class="mb-2 mb-lg-0">
+        <BButton href="/login" class="btn btn-light">Login</BButton>
+      </BNavbarNav>
+    </BCollapse>
+  </BNavbar>
 </template>

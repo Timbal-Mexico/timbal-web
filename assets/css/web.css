@@ -81,14 +81,26 @@ header p {
   font-size: 1.5rem;
 }
 /* Custom Buttons Styles */
-.btn-timbal {
-  background: rgb(3, 191, 227) !important;
+.btn {
+  border-radius: 100px;
+}
+.btn-timbal-primary {
+  background: rgb(94, 55, 136) !important;
+  border-color: rgb(56, 33, 80);
   color: #fff !important;
 }
 
-.btn-timbal2 {
+.btn-timbal-secondary {
+  background: rgb(3, 191, 227);
+  border-color: rgb(0, 133, 160);
 }
-.nav-link {
+
+.btn-timbal-alternative {
+  background: rgb(146, 204, 192);
+  border-color: rgb(110, 153, 144);
+}
+
+#main-menu .nav-link {
   color: white !important;
 }
 .active.nav-link {

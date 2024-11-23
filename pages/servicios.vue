@@ -3,110 +3,81 @@
     <header id="servicios" class="mt-1">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <div class="text-center text-white">
-              <h1>Servicios</h1>
-              <p>Que es lo que hacemos</p>
+          <div class="col-6 col-offset-6">
+            <div class="text-white">
+              <h1>
+                Impulsamos tu negocio y mejoramos la experiencia de tus
+                clientes.
+              </h1>
+              <p>
+                Diseñamos estrategias personalizadas para impulsar tu negocio,
+                mejorar la atención al cliente y optimizar procesos con
+                soluciones innovadoras.
+              </p>
+              <!-- Connect to Calendly -->
+              <a href="#" class="btn btn-timbal-primary btn-lg px-5"
+                >Solicitar una Llamada!</a
+              >
             </div>
           </div>
         </div>
       </div>
     </header>
 
+    <section id="intro-solutions">
+      <div class="container my-5">
+        <div class="row my-5">
+          <div class="col-8 mx-auto">
+            <div class="text-center">
+              <h2>
+                Brindamos soluciones para hacer crecer tu negocio y mejorar la
+                atencion a cliente.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section>
       <div class="container px-4 py-5" id="icon-grid">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="card" style="width: 18rem">
-              <img
-                src="../assets/img/customer-service.gif"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h3 class="card-title fw-bold mb-0 fs-4 text-body-emphasis">
-                  Atención a Clientes
-                </h3>
-                <p class="card-text">
-                  Tomamos el control de la atencion de tus clientes y los
-                  tratamos como si fueran nuestros, brindamos la informacion
-                  necesaria.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="text-center">
-                  <a href="#" class="btn btn-primary">Más Información</a>
-                </div>
-              </div>
+        <div
+          class="row gx-5 row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 text-center"
+        >
+          <div
+            v-for="(service, index) in services"
+            :key="index"
+            class="col mb-5 h-100"
+          >
+            <div
+              class="feature bg-timbal2 bg-gradient text-white rounded-3 mb-3 mx-auto"
+            >
+              <h2>{{ service.icon }}</h2>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card">
-              <img
-                src="../assets/img/marketing.gif"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title fw-bold mb-0 fs-4 text-body-emphasis">
-                  Marketing Digital
-                </h5>
-                <p class="card-text">
-                  Creamos campañas digitales, donde creamos la interaccion que
-                  tu negocio necesita, generamos mensajes y los transformamos en
-                  clientes.
-                </p>
-                <a href="#" class="btn btn-primary">Más Información</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card">
-              <img src="../assets/img/crm.gif" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title fw-bold mb-0 fs-4 text-body-emphasis">
-                  Kommo CRM
-                </h5>
-                <p class="card-text">
-                  Ofrecemos la plataforma donde puedes gestionar tus clientes
-                  potenciales, asi como atender a los clientes de manera facil y
-                  rapida.
-                </p>
-                <a href="#" class="btn btn-primary">Más Información</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card">
-              <img
-                src="../assets/img/designer.gif"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title fw-bold mb-0 fs-4 text-body-emphasis">
-                  Diseño Gráfico
-                </h5>
-                <p class="card-text">
-                  Potencializamos tu marca con nuestro equipo de diseño con el
-                  cual podemos aumentar el impacto de tus anuncios en linea.
-                </p>
-                <a href="#" class="btn btn-primary">Más Información</a>
-              </div>
-            </div>
+            <h2 class="h5">
+              <strong>{{ service.title }}</strong>
+            </h2>
+            <p class="mb-0">{{ service.text }}</p>
           </div>
         </div>
       </div>
     </section>
   </div>
 </template>
-<script>
+<script setup>
+  useHead({
+    title: "Inicio",
+    meta: [
+      { name: "description", content: "Timbal Agencia de Marketing Digital" },
+      { name: "keywords", content: "Timbal, Mexico, Marketing, Digital" },
+    ],
+  });
   definePageMeta({
     layout: "application",
   });
-  import { defineComponent } from "@vue/composition-api";
-
-  export default defineComponent({
+</script>
+<script>
+  export default {
     setup() {},
     data() {
       return {
@@ -135,5 +106,5 @@
         ],
       };
     },
-  });
+  };
 </script>

@@ -3,17 +3,17 @@
     <header id="nosotros" class="mt-1">
       <div class="container">
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-6 col-offset-6">
             <div class="text-white">
               <h1>Creamos conexiones con los clientes de nuestros clientes.</h1>
               <p>
                 Ayudamos a nuestros clientes a atender mejor a sus propios
                 clientes y generamos un sentido pertenencia.
               </p>
-              <a href="#" class="btn btn-primary btn-lg px-5 me-3 rounded"
+              <a href="#" class="btn btn-timbal-primary btn-lg px-5 me-3"
                 >Ver Video</a
               >
-              <a href="#" class="btn btn-outline-light btn-lg ms-3"
+              <a href="#" class="btn btn-outline-light btn-lg ms-3 px-5"
                 >Servicios</a
               >
             </div>
