@@ -54,7 +54,9 @@ h6 {
   max-height: 5rem;
   text-align: center;
 }
-
+.navbar-brand {
+  width: 128px !important;
+}
 /*Pages*/
 /*Home*/
 /* Nosotros*/
@@ -74,8 +76,8 @@ header#contacto {
   padding: 10rem 0;
 }
 header h1 {
-  font-size: 3.5rem;
-  line-height: 3.5rem;
+  font-size: 3rem;
+  line-height: 3rem;
 }
 header p {
   font-size: 1.5rem;

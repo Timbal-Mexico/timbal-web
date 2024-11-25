@@ -3,7 +3,7 @@
     <header id="kommo" class="mt-1">
       <div class="container">
         <div class="row">
-          <div class="col-6 col-offset-6">
+          <div class="col-12 col-md-6 col-md-offset-6">
             <div class="text-white">
               <h1>Gestiona, automatiza y cierra más ventas con Kommo CRM.</h1>
               <p>
