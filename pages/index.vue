@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Header-->
-    <header id="hero-header" class="bg-timbal mt-5 py-5">
+    <header id="hero-header" class="bg-timbal mt-5 pt-5">
       <div class="container px-5">
         <div class="row h-100 gx-5 align-items-center justify-content-center">
           <div class="col-lg-6">
@@ -34,6 +34,7 @@
           <div class="col-lg-6 d-none d-xl-block text-center">
             <img
               src="../assets/img/man-phone.png"
+              class="img-fluid"
               alt="Atencion a Clientes   "
             />
           </div>
@@ -132,11 +133,14 @@
                 <h5 class="card-title">Plan Básico</h5>
                 <p class="card-text">Ideal para negocios emergentes.</p>
                 <h3 class="h1 my-4">
-                  <strong>$99</strong><span class="fs-6">/mes</span>
+                  <span class="from-price fs-6">desde</span
+                  ><span
+                    ><strong><sup>$</sup>6,700</strong></span
+                  ><span class="fs-6">/mes</span>
                 </h3>
                 <ul class="list-unstyled mb-4">
                   <li>✔ Atención WhatsApp + chat web</li>
-                  <li>✔ 12 horas/día</li>
+                  <li>✔ horarios de 8 hrs.</li>
                 </ul>
                 <a href="#" class="btn btn-timbal">Solicitar una Cotización</a>
               </div>
@@ -150,7 +154,9 @@
                 <h5 class="card-title pt-2">Plan Profesional</h5>
                 <p class="card-text">Para empresas en expansión.</p>
                 <h3 class="h1 my-4">
-                  <strong>$299</strong><span class="fs-6">/mes</span>
+                  <span class="from-price fs-6">desde</span><span></span>
+                  <strong><sub>$</sub>13,500</strong
+                  ><span class="fs-6">/mes</span>
                 </h3>
                 <ul class="list-unstyled mb-4">
                   <li>✔ Soporte multicanal</li>
@@ -168,7 +174,8 @@
                 <h5 class="card-title">Plan Premium</h5>
                 <p class="card-text">Máxima cobertura y personalización.</p>
                 <h3 class="h1 my-4">
-                  <strong>$599</strong><span class="fs-6">/mes</span>
+                  <strong><sup>$</sup>27,500</strong
+                  ><span class="fs-6">/mes</span>
                 </h3>
                 <ul class="list-unstyled mb-4">
                   <li>✔ Atención 24/7</li>

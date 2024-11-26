@@ -1,33 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-  font-family: "Poppins";
+  font-family: "Poppins" !important
+  
+  ;
 }
 
 /* Headdings */
 h1,
 h2,
 h3 {
-  font-weight: 900;
+  font-weight: 900 !important;
 }
 
 h4,
 h5,
 h6 {
-  font-weight: 700;
-}
-
-/* Headdings */
-h1,
-h2,
-h3 {
-  font-weight: 900;
-}
-
-h4,
-h5,
-h6 {
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 .bg-timbal {
@@ -49,10 +38,10 @@ h6 {
   ) !important;
 }
 .feature {
-  padding: 2rem 2rem;
-  max-width: 5rem;
-  max-height: 5rem;
-  text-align: center;
+  padding: 2rem 2rem !important;
+  max-width: 5rem !important;
+  max-height: 5rem !important;
+  text-align: center !important;
 }
 .navbar-brand {
   width: 128px !important;
@@ -69,23 +58,23 @@ header#contacto {
       rgba(94, 55, 136, 0.5),
       rgba(72, 180, 229, 0.7)
     ),
-    url("https://framerusercontent.com/images/oEeswu7TYD34QjfY1k48d76xI8.jpg");
+    url("https://framerusercontent.com/images/oEeswu7TYD34QjfY1k48d76xI8.jpg") !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
   padding: 10rem 0;
 }
 header h1 {
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 3rem !important;
+  line-height: 3rem !important;
 }
 header p {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
 }
 
 /* Custom Buttons Styles */
 .btn {
-  border-radius: 100px;
+  border-radius: 100px !important;
 }
 .btn-timbal-primary {
   background: rgb(94, 55, 136) !important;
@@ -107,5 +96,5 @@ header p {
   color: white !important;
 }
 .active.nav-link {
-  font-weight: 700;
+  font-weight: 700 !important;
 }
