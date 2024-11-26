@@ -22,7 +22,7 @@
       </div>
     </header>
 
-    <section>
+    <section id="">
       <div class="container py-5">
         <div class="row gx-5 align-items-center justify-content-center">
           <div class="col-lg-6">
@@ -46,11 +46,11 @@
       </div>
     </section>
 
-    <section>
-      <div class="container-fluid">
-        <div class="row gx-5 align-items-center justify-content-center">
-          <div class="col-md-6 bg-timbal p-5">
-            <div class="text-white">
+    <section id="vision">
+      <div class="container-fluid bg-timbal">
+        <div class="row gx-0 align-items-center justify-content-center">
+          <div class="col-md-6 p-5 h-100">
+            <div class="text-center text-white">
               <h1>Nuestra Vision</h1>
               <p>
                 Nuestra misión es potenciar el crecimiento de las empresas a
@@ -63,11 +63,20 @@
             </div>
           </div>
 
-          <div class="col-md-6"></div>
+          <div class="col-md-6">
+            <img src="../assets/img/vision.jpg" class="img-fluid" alt="" />
+          </div>
         </div>
-        <div class="row gx-5 align-items-center justify-content-center">
-          <div class="col-md-6"></div>
-          <div class="col-md-6 bg-timbal2 p-5">
+      </div>
+    </section>
+
+    <section id="mision">
+      <div class="container-fluid bg-timbal2">
+        <div class="row gx-0 align-items-center justify-content-center">
+          <div class="col-md-6">
+            <img src="../assets/img/mision.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md-6 p-5 h-100">
             <div class="text-center text-white">
               <h1>Nuestra Mision</h1>
               <p>
