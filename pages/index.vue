@@ -32,7 +32,10 @@
             </div>
           </div>
           <div class="col-lg-6 d-none d-xl-block text-center">
-            <img src="../assets/img/man-phone.png" alt="Atencion a Clientes" />
+            <img
+              src="../assets/img/man-phone.png"
+              alt="Atencion a Clientes   "
+            />
           </div>
         </div>
       </div>
