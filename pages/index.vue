@@ -61,7 +61,7 @@
                 class="col mb-5 h-100"
               >
                 <div
-                  class="feature bg-timbal2 bg-gradient text-white rounded-3 mb-3 mx-auto"
+                  class="feature bg-timbal2 text-white rounded-3 mb-3 mx-auto"
                 >
                   <h2>{{ service.icon }}</h2>
                 </div>
