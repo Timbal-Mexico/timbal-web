@@ -47,7 +47,9 @@
       <div class="container px-5 my-2">
         <div class="row gx-5 py-5">
           <div class="col-lg-6 mx-auto">
-            <h2 class="h1 fw-bolder text-center">Lo que hacemos por ti</h2>
+            <h2 class="h1 fw-bolder text-center">
+              Te ayudamos a crecer tu negocio
+            </h2>
           </div>
         </div>
         <div class="row gx-5">
@@ -112,7 +114,7 @@
     </section>
 
     <section id="pricing">
-      <div class="container my-4">
+      <div class="container py-5 my-5">
         <div class="row my-5">
           <div class="col-md-12">
             <div class="text-center">
@@ -130,19 +132,24 @@
           <div class="col-md-4">
             <div class="card shadow-sm py-5 h-100">
               <div class="card-body">
-                <h5 class="card-title">Plan Básico</h5>
+                <h5 class="card-title">Básico</h5>
                 <p class="card-text">Ideal para negocios emergentes.</p>
                 <h3 class="h1 my-4">
                   <span class="from-price fs-6">desde</span
                   ><span
-                    ><strong><sup>$</sup>6,700</strong></span
+                    ><strong><sup>$</sup>9,800</strong></span
                   ><span class="fs-6">/mes</span>
                 </h3>
                 <ul class="list-unstyled mb-4">
-                  <li>✔ Atención WhatsApp + chat web</li>
-                  <li>✔ horarios de 8 hrs.</li>
+                  <li>✔ Atencion a Clientes</li>
+                  <li>✔ Soporte Multicanal</li>
+                  <li>✔ 1 Agente Dedicado</li>
+                  <li>✔ Reportes Mensuales</li>
+                  <li>✔ Kommo CRM por 6 Meses</li>
                 </ul>
-                <a href="#" class="btn btn-timbal">Solicitar una Cotización</a>
+                <a href="#" class="btn btn-timbal-alternative"
+                  >Solicitar una Cotización</a
+                >
               </div>
             </div>
           </div>
@@ -151,18 +158,32 @@
           <div class="col-md-4">
             <div class="card shadow-sm py-5 h-100">
               <div class="card-body">
-                <h5 class="card-title pt-2">Plan Profesional</h5>
+                <h5 class="card-title pt-2">
+                  <span
+                    class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger"
+                  >
+                    Recomendado
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                  Profesional
+                </h5>
                 <p class="card-text">Para empresas en expansión.</p>
                 <h3 class="h1 my-4">
                   <span class="from-price fs-6">desde</span><span></span>
-                  <strong><sub>$</sub>13,500</strong
+                  <strong><sup>$</sup>13,500</strong
                   ><span class="fs-6">/mes</span>
                 </h3>
                 <ul class="list-unstyled mb-4">
-                  <li>✔ Soporte multicanal</li>
-                  <li>✔ Reporte mensual</li>
+                  <li>✔ Atención a Clientes</li>
+                  <li>✔ Soporte Multicanal</li>
+                  <li>✔ 1 Agente Dedicado</li>
+                  <li>✔ More Apps Integration</li>
+                  <li>✔ Reportes Quincenales</li>
+                  <li>✔ Remarketing</li>
+                  <li>✔ Base de Datos de Clientes</li>
+                  <li>✔ Kommo CRM por 9 Meses</li>
                 </ul>
-                <a href="#" class="btn btn-timbal">Solicita una cotización</a>
+                <a href="#" class="btn btn-timbal-primary">Adquirir Ahora</a>
               </div>
             </div>
           </div>
@@ -171,17 +192,23 @@
           <div class="col-md-4">
             <div class="card shadow-sm py-5 h-100">
               <div class="card-body">
-                <h5 class="card-title">Plan Premium</h5>
+                <h5 class="card-title">Premium</h5>
                 <p class="card-text">Máxima cobertura y personalización.</p>
                 <h3 class="h1 my-4">
+                  <span class="from-price fs-6">desde</span>
                   <strong><sup>$</sup>27,500</strong
                   ><span class="fs-6">/mes</span>
                 </h3>
                 <ul class="list-unstyled mb-4">
                   <li>✔ Atención 24/7</li>
                   <li>✔ Agentes dedicados</li>
+                  <li>✔ Remarketing</li>
+                  <li>✔ Base de datos</li>
+                  <li>✔ Kommo CRM por 12 Meses</li>
                 </ul>
-                <a href="#" class="btn btn-timbal">Agenda una reunión hoy</a>
+                <a href="#" class="btn btn-timbal-alternative"
+                  >Agenda una reunión hoy</a
+                >
               </div>
             </div>
           </div>

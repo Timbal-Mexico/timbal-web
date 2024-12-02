@@ -80,16 +80,37 @@ header p {
   background: rgb(94, 55, 136) !important;
   border-color: rgb(56, 33, 80);
   color: #fff !important;
+  transition: ease-in-out 300ms all;
 }
 
+.btn-timbal-primary:hover {
+  background: rgb(56, 33, 80) !important;
+  border-color: rgb(115, 66, 167);
+  color: #fff !important;
+}
 .btn-timbal-secondary {
   background: rgb(3, 191, 227);
   border-color: rgb(0, 133, 160);
 }
 
+.btn-timbal-secondary:hover {
+  background: rgb(0, 133, 160);
+  border-color: rgb(3, 191, 227);
+  color: #fff;
+  transition: ease-in-out 300ms all;
+}
+
 .btn-timbal-alternative {
   background: rgb(146, 204, 192);
   border-color: rgb(110, 153, 144);
+  color: #000;
+  transition: ease-in-out 300ms all;
+}
+
+.btn-timbal-alternative:hover {
+  background: rgb(110, 153, 144);
+  border-color: rgb(146, 204, 192);
+  color: #000;
 }
 
 #main-menu .nav-link {
