@@ -37,6 +37,15 @@ h6 {
     rgba(146, 204, 192, 1) 100%
   ) !important;
 }
+
+.bg-timbal-light {
+  background-color: rgba(94, 55, 136, 0.7);
+}
+
+/*Text Styles*/
+.text-timbal-purple {
+  color: rgb(94, 55, 136) !important;
+}
 .feature {
   padding: 2rem 2rem !important;
   max-width: 5rem !important;
@@ -118,4 +127,26 @@ header p {
 }
 .active.nav-link {
   font-weight: 700 !important;
+}
+
+/* Kommo Pricing Table */
+.card {
+}
+
+.card-title {
+  font-size: 2.5rem;
+}
+.card-subtitle {
+}
+.card-img {
+}
+
+.card-body {
+}
+
+.card-body ul {
+  list-style-type: none;
+}
+
+.card-footer {
 }
