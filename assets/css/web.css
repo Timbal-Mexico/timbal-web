@@ -60,7 +60,6 @@ h6 {
 /* Nosotros*/
 header#nosotros,
 header#servicios,
-header#kommo,
 header#contacto {
   background-image: linear-gradient(
       to bottom,
@@ -68,6 +67,19 @@ header#contacto {
       rgba(72, 180, 229, 0.7)
     ),
     url("https://framerusercontent.com/images/oEeswu7TYD34QjfY1k48d76xI8.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding: 10rem 0;
+}
+
+header#kommo {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(94, 55, 136, 0.5),
+      rgba(72, 180, 229, 0.7)
+    ),
+    url("../img/crm-team.png") !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
