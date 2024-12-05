@@ -1,9 +1,9 @@
 <template>
   <BNavbar
     id="main-menu"
-    v-b-color-mode="'dark'"
+    v-b-color-mode="'light'"
     toggleable="lg"
-    variant="dark"
+    variant="light"
     fixed="top"
   >
     <BNavbarBrand href="#"
@@ -25,7 +25,9 @@
       </BNavbarNav>
 
       <BNavbarNav class="mb-2 mb-lg-0">
-        <BButton href="/login" class="btn btn-light">Login</BButton>
+        <BButton href="/login" class="btn btn-timbal-primary"
+          >Agendar Demo</BButton
+        >
       </BNavbarNav>
     </BCollapse>
   </BNavbar>
