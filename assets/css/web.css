@@ -39,7 +39,7 @@ h6 {
 }
 
 .bg-timbal-light {
-  background-color: rgba(94, 55, 136, 0.7);
+  background-color: rgba(94, 55, 136, 0.7) !important;
 }
 
 /*Text Styles*/
