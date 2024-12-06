@@ -162,3 +162,15 @@ header p {
 
 .card-footer {
 }
+
+/* Page Contacto */
+#contact-form input,
+#contact-form textarea {
+  padding: 12px;
+  background-color: #e0e0e0 !important;
+}
+
+#contact-form label {
+  font-weight: bold;
+  padding: 0.5rem;
+}
