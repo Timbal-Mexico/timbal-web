@@ -52,7 +52,7 @@
           <div class="col-md-6 p-5 h-100">
             <div class="text-center text-white">
               <h1>Nuestra Vision</h1>
-              <p>
+              <p class="fs-5">
                 Nuestra misión es potenciar el crecimiento de las empresas a
                 través de la generación efectiva de leads, proporcionando un
                 servicio de atención al cliente excepcional. Nos enfocamos en
@@ -79,7 +79,7 @@
           <div class="col-md-6 p-5 h-100">
             <div class="text-center text-white">
               <h1>Nuestra Mision</h1>
-              <p>
+              <p class="fs-5">
                 Aspiramos a ser la agencia líder en generación de leads y
                 atención al cliente, reconocida por nuestra eficiencia,
                 profesionalismo y capacidad para impulsar el éxito de nuestros
@@ -93,11 +93,46 @@
       </div>
     </section>
 
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h2>Redescubre lo que la tecnologia y el trato humano</h2>
+    <section id="principios" class="py-5">
+      <div class="container py-5">
+        <div class="row gx-0 align-items-center justify-content-center">
+          <div class="col-md-6 p-5 h-100">
+            <h2>Nuestros principios</h2>
+            <p class="fs-5">
+              Reflejan nuestros valores y definen cómo diseñamos soluciones que
+              conectan negocios y clientes.
+            </p>
+
+            <BAccordion>
+              <BAccordionItem title="Innovación Centrada en el Usuario" visible>
+                Diseñamos nuestras herramientas pensando siempre en las
+                personas, facilitando procesos y mejorando experiencias.
+              </BAccordionItem>
+              <BAccordionItem title="Conexión Significativa">
+                Promovemos relaciones sólidas entre negocios y clientes mediante
+                tecnología que simplifica y potencia la comunicación.
+              </BAccordionItem>
+              <BAccordionItem title="Simplicidad y Eficiencia">
+                Creamos soluciones intuitivas que eliminan la complejidad,
+                permitiendo a los usuarios ahorrar tiempo y enfocarse en lo que
+                realmente importa.
+              </BAccordionItem>
+              <BAccordionItem title="Adaptabilidad Constante">
+                Evolucionamos continuamente para ofrecer herramientas que se
+                ajusten a las necesidades cambiantes del mercado.
+              </BAccordionItem>
+              <BAccordionItem title="Transparencia y Confianza">
+                Fomentamos relaciones basadas en la honestidad, tanto con
+                nuestros usuarios como con nuestros partners.
+              </BAccordionItem>
+            </BAccordion>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="../assets/img/coffeeshop.jpg"
+              class="img-fluid"
+              alt="Principles"
+            />
           </div>
         </div>
       </div>
