@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
-    "axios": "^1.7.2",
+    "axios": "^1.7.9",
     "bootstrap-vue": "^2.23.1",
     "chartjs": "^0.3.24",
     "datatables": "^1.10.18"
