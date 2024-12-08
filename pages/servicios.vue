@@ -85,22 +85,32 @@
         services: [
           {
             icon: "01",
-            title: "Soporte Multicanal 24/7",
+            title: "Gestión de Atención al Cliente Multicanal",
             text: "Estamos donde tus clientes estén: WhatsApp, Messenger, SMS, chat en vivo, ¡y más!",
           },
           {
             icon: "02",
-            title: "Automatización Inteligente + Agentes Reales",
+            title: "Servicio de Ventas y Seguimiento",
             text: "El equilibrio perfecto entre bots rápidos y agentes humanos empáticos.",
           },
           {
             icon: "03",
-            title: "Gestión Integral de Casos",
+            title: "Gestión de Reputación Online",
             text: "Cada interacción importa. Documentamos cada mensaje para que nada se pierda.",
           },
           {
             icon: "04",
-            title: "Monitoreo y Respuesta Proactiva",
+            title: "Soporte Técnico Básico",
+            text: "Detectamos y resolvemos problemas antes de que afecten a tus clientes.",
+          },
+          {
+            icon: "05",
+            title: "Optimización y Reportes de Mensajes",
+            text: "Detectamos y resolvemos problemas antes de que afecten a tus clientes.",
+          },
+          {
+            icon: "06",
+            title: "Servicios Multilingües",
             text: "Detectamos y resolvemos problemas antes de que afecten a tus clientes.",
           },
         ],
