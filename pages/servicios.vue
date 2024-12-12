@@ -88,21 +88,6 @@
             title: "Soporte Multicanal 24/7",
             text: "Estamos donde tus clientes estén: WhatsApp, Messenger, SMS, chat en vivo, ¡y más!",
           },
-          {
-            icon: "02",
-            title: "Automatización Inteligente + Agentes Reales",
-            text: "El equilibrio perfecto entre bots rápidos y agentes humanos empáticos.",
-          },
-          {
-            icon: "03",
-            title: "Gestión Integral de Casos",
-            text: "Cada interacción importa. Documentamos cada mensaje para que nada se pierda.",
-          },
-          {
-            icon: "04",
-            title: "Monitoreo y Respuesta Proactiva",
-            text: "Detectamos y resolvemos problemas antes de que afecten a tus clientes.",
-          },
         ],
       };
     },
