@@ -44,21 +44,25 @@
         <div
           class="row gx-5 row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 text-center"
         >
+         <div class="service-card">
           <div
-            v-for="(service, index) in services"
-            :key="index"
-            class="col mb-5 h-100"
+          v-for="(service, index) in services"
+          :key="index"
+          class="col mb-5 h-100"
+        >
+          <div
+            class="feature bg-timbal2 bg-gradient text-white rounded-5 mb-3 mx-auto"
           >
-            <div
-              class="feature bg-timbal2 bg-gradient text-white rounded-3 mb-3 mx-auto"
-            >
-              <h2>{{ service.icon }}</h2>
-            </div>
-            <h2 class="h5">
-              <strong>{{ service.title }}</strong>
-            </h2>
-            <p class="mb-0">{{ service.text }}</p>
+            <h2>{{ service.icon }}</h2>
           </div>
+          <h2 class="h5">
+            <strong>{{ service.title }}</strong>
+          </h2>
+          <p class="mb-0">{{ service.text }}</p>
+
+          <a href="#" class="btn-link">Ver Mas <i class="bi-alarm"></i></a>
+        </div>
+         </div>
         </div>
       </div>
     </section>
