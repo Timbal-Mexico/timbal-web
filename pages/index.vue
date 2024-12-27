@@ -157,14 +157,20 @@
           <!-- Plan Profesional -->
           <div class="col-md-4">
             <div class="card shadow-sm py-5 h-100">
-              <div class="card-body">
-                <h5 class="card-title pt-2">
-                  <span
+              <span
+                    class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger"
+                  >
+                  <h4><span
                     class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger"
                   >
                     Recomendado
                     <span class="visually-hidden">unread messages</span>
+                  </span></h4>
+                    <span class="visually-hidden">unread messages</span>
                   </span>
+              <div class="card-body">
+                <h5 class="card-title pt-2">
+                  
                   Profesional
                 </h5>
                 <p class="card-text">Para empresas en expansión.</p>
@@ -289,8 +295,8 @@
 
               <!-- Submit Button -->
               <div class="text-center">
-                <button type="submit" class="btn btn-timbal w-100">
-                  Submit
+                <button type="submit" class="btn btn-timbal-alternative w-100">
+                  Enviar 
                 </button>
               </div>
             </form>

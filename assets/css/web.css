@@ -106,31 +106,31 @@ header p {
 
 .btn-timbal-primary:hover {
   background: rgb(56, 33, 80) !important;
-  border-color: rgb(115, 66, 167);
+  border-color: rgb(115, 66, 167) !important;
   color: #fff !important;
 }
 .btn-timbal-secondary {
-  background: rgb(3, 191, 227);
-  border-color: rgb(0, 133, 160);
+  background: rgb(3, 191, 227) !important;
+  border-color: rgb(0, 133, 160) !important;
 }
 
 .btn-timbal-secondary:hover {
-  background: rgb(0, 133, 160);
-  border-color: rgb(3, 191, 227);
+  background: rgb(0, 133, 160) !important;
+  border-color: rgb(3, 191, 227) !important;
   color: #fff;
   transition: ease-in-out 300ms all;
 }
 
 .btn-timbal-alternative {
-  background: rgb(146, 204, 192);
-  border-color: rgb(110, 153, 144);
+  background: rgb(146, 204, 192) !important;
+  border-color: rgb(110, 153, 144) !important;
   color: #000;
   transition: ease-in-out 300ms all;
 }
 
 .btn-timbal-alternative:hover {
-  background: rgb(110, 153, 144);
-  border-color: rgb(146, 204, 192);
+  background: rgb(110, 153, 144) !important;
+  border-color: rgb(146, 204, 192) !important;
   color: #000;
 }
 
@@ -173,4 +173,5 @@ header p {
 #contact-form label {
   font-weight: bold;
   padding: 0.5rem;
+  color: #000
 }
