@@ -25,7 +25,7 @@
       </BNavbarNav>
 
       <BNavbarNav class="mb-2 mb-lg-0">
-        <BButton href="/login" class="btn btn-timbal-primary"
+        <BButton href="https://calendly.com/timbalcomunicaciones/30min" class="btn btn-timbal-primary"
           >Agendar Demo</BButton
         >
       </BNavbarNav>
